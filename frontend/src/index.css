@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #00236d;
+  
+}
+
+.navbar {
+  height: 136px;
+  top: 0;
+  width:100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color:#00236d;
+  position: fixed;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  padding: 20px;
+  margin:40px auto;
+}
+.blue-stripe {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  
+  background-color: #00236d;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.food-container-image {
+  position: absolute; /* Stays on top of the blue stripe */
+  top: 20px; /* Adjust as needed to sit properly on the stripe */
+  width: 80%; /* Adjust width for responsiveness */
+  max-width: 1200px; /* Optional: Cap the max width */
+}
+
+/* Recipes (Food Images) */
+.recipes {
+  position: absolute; /* Layered on top of the container */
+  top: 50px; /* Adjust based on design preference */
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Matches the food container width */
+  max-width: 1200px;
+  gap: 50px; /* Equal spacing between food images */
+}
+
+
+.recipe-image {
+  width: 14%;
+  height: auto; 
+  border-radius: 10px; 
+}
+.contact-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-section input,
+.contact-section textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contact-section button {
+  background-color: #002f6c;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+.Acasa{
+  margin-top: 136px;
+  text-align: center;
+
+}
+.logo{
+  background-image: url('./img/fundal.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+
+}
